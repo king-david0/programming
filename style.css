@@ -1,0 +1,129 @@
+body{
+    background-color:  #F7E7DC;
+    margin: 0;
+}
+
+h2, h3, p{
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #405D72;
+}
+
+.header{
+    margin-top: 100px;
+    position: relative;
+}
+
+.header > h1{
+    font-size: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #405D72;
+    
+}
+
+
+.profile{ 
+    display: flex;
+    justify-content:center ;  
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 20px;
+}
+
+.profile-text{
+    align-self: flex-start;
+    text-align: left;
+    max-width: 300px;
+}
+
+.profile-text-span{
+    font-family: "Playwrite FR Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.profile > div > img{
+    border-radius: 50%;
+}
+
+/* container */
+
+
+.container-linebreak > h2{
+    text-align: center;
+    
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 40px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.flex:hover{
+    box-shadow: 2px 2px 4px #405D72;
+    
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(117, 130, 148, 0.5);
+    padding: 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer> div> h3{
+    color: black;
+    font-weight: 510;
+    margin-bottom: 0;
+}
+.footer-paragraph > p{
+    color: black;
+}
+
+.footer-paragraph> hr{
+    border-color: black;
+    width: 200px;
+}
+
+.footer-img{
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 800px){
+    .header > h1{
+        margin-bottom: 20px;
+    }
+
+    .profile{
+        gap: 10px
+    }
+}
